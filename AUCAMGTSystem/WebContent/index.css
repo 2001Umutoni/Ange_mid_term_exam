@@ -1,0 +1,88 @@
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+}
+.container{
+	display:flex;
+	background-color:#000080;
+}
+.content{
+	margin-left:40px;
+	padding-right:25px;
+	display:flex;
+	flex:1;
+	height:100vh;
+	flex-direction: column;
+	background-color:#000080;
+	color:white;
+}
+.content h1{
+	font-size: 4rem;
+	justify-content: center;
+	text-align: start;
+	margin-top: 6rem;
+	font-weight: bold;
+}
+.content p{
+	margin:1rem 0;
+	font-size: 1.2rem;
+	
+}
+.content button{
+	width:30%;
+}
+.images{
+	
+	width:750px;
+	height:98vh;
+	margin-right:5px;
+	margin-left: 1rem;
+	
+}
+.images img{
+	width:100%;
+	height: 100%;
+	background-position: center;
+	
+}
+
+.button{
+	padding:17px;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: white;
+	text-align:center;
+	color:blue;
+	border:none;
+	border-radius:40px;
+	margin-top: 1.3rem;
+}
+.button a{
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.button a:hover {
+	color:green;
+}
+.button a:visited{
+	color:#000080;
+}
+
+.button:hover {
+	scale:1.05;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

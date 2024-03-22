@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+  <property name="hibernate.connection.password">atessy02</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/auca_db</property>
+  <property name="hibernate.connection.username">root</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+  <property name="hibernate.show_sql">true</property>
+  <property name="hibernate.current_session_context_class">thread</property>
+  <property name="hibernate.hbm2ddl.auto">update</property>
+  <mapping class="com.students.model.Students"/>
+  <mapping class="com.students.model.CourseDefinition"/>
+  <mapping class="com.students.model.Courses"/>
+  <mapping class="com.students.model.Semesters"/>
+  <mapping class="com.students.model.StudentRegistrations"/>
+  <mapping class="com.students.model.Teachers"/>
+  <mapping class="com.students.model.Student_Users"/>
+  <mapping class="com.students.model.AcademicUnits"/>
+ </session-factory>
+</hibernate-configuration>
